@@ -5,7 +5,7 @@ import { useForm, Controller } from 'react-hook-form';
 
 const GitHubStreakWidget = () => {
   const { control, handleSubmit, formState: { errors } } = useForm();
-  const [imageUrl, setImageUrl] = useState('https://streak-stats.demolab.com?user=Stepheeeen&theme=dark&border_radius=5');
+  const [imageUrl, setImageUrl] = useState(null);
 
   const onSubmit = data => {
     console.log(data);
