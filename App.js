@@ -3,7 +3,7 @@ import 'react-native-gesture-handler';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import GitHubStreakWidget from './src/component/GitHubStreakWidget';
+import GitHubStreakWidget from "./src/component/GithubWidget";
 
 const Stack = createStackNavigator();
 
